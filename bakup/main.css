@@ -1,0 +1,225 @@
+.navy {
+  background: #2A3038;
+}
+
+.lightnavy {
+  background: #3B4451;
+}
+
+.white {
+  background: #ffffff;
+}
+
+body {
+    background-color: #E3E6EB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.2em 3em;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#div2.foo{
+  position: absolute;
+  width: 62.5%;
+  height:84%;
+  margin: 0.5%;
+  margin-top: 6%;
+  margin-left: 8.35%;
+  z-index: 0;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#div3.foo{
+  position: sticky;
+  left: 0;
+  right: 0;
+  height:3.5%;
+  width:101.3%;
+  top: 0;
+  margin: -1%;
+  z-index: 2;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#div4.foo{
+  position: absolute;
+  width: 62.5%;
+  height:8%;
+  margin: 0.5%;
+  margin-top: 4%;
+  margin-left: 8.35%;
+  z-index: 1;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#div5.foo{
+  position: absolute;
+  width: 16.7%;
+  height:84%;
+  margin: 0.5%;
+  margin-top: 6%;
+  margin-left: 72.9%;
+  z-index: 0;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#div6.foo{
+  position: absolute;
+  width: 16.7%;
+  height:8%;
+  margin: 0.5%;
+  margin-top: 4%;
+  margin-left: 72.9%;
+  z-index: 1;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#div7.foo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height:100%;
+  margin-top: 0;
+  z-index: 0;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#div8.foo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  height:100%;
+  margin-top: 0;
+  z-index: 0;
+  background: rgba(175, 175, 175, .7);
+  display: none;
+}
+#div9.foo{
+  position: absolute;
+  width: 62.5%;
+  height:8%;
+  margin: 0.5%;
+  margin-top: 4%;
+  margin-left: 8.35%;
+  z-index: 1;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#div10.foo{
+  position: absolute;
+  width: 62.5%;
+  height:84%;
+  margin: 0.5%;
+  margin-top: 6%;
+  margin-left: 8.35%;
+  z-index: 0;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+#div11.foo{
+  position: absolute;
+  width: 16.7%;
+  height:50%;
+  margin: 0.5%;
+  margin-top: 6%;
+  margin-left: 72.9%;
+  z-index: 0;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+#div12.foo{
+  position: absolute;
+  width: 16.7%;
+  height:8%;
+  margin: 0.5%;
+  margin-top: 4%;
+  margin-left: 72.9%;
+  z-index: 1;
+  border: 1px solid rgba(0, 0, 0, .2);
+  
+}
+#header1 {
+  font-size: 140px;
+  color: white;
+  opacity: 1;
+  text-align: center;
+  font-family: 'Unica One', cursive;
+      text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#header2 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: 'Unica One', cursive;
+      text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
+}
+
+#header4 {
+  font-size: 3.5vw;
+  color: white;
+  opacity: 1;
+  position: absolute;
+  padding-bottom: 10%;
+  display:inline-block;
+  text-align: center;
+  font-family: 'Unica One', cursive;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
